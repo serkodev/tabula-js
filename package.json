@@ -1,0 +1,29 @@
+{
+  "name": "tabula-js",
+  "version": "0.0.0",
+  "license": "MIT",
+  "author": "SerKo (http://github.com/serkodev)",
+  "description": "",
+  "keywords": [],
+  "homepage": "https://github.com/serkodev/tabula-js#readme",
+  "bugs": {
+    "url": "https://github.com/serkodev/tabula-js/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serkodev/tabula-js.git"
+  },
+  "scripts": {
+    "postinstall": "curl https://github.com/tabulapdf/tabula-java/releases/download/v1.0.5/tabula-1.0.5-jar-with-dependencies.jar -o tabula.jar"
+  },
+  "packageManager": "pnpm@7.0.0",
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.23.1",
+    "@types/node": "^17.0.35",
+    "eslint": "^8.15.0",
+    "tsup": "^5.12.8",
+    "tsx": "^3.3.1",
+    "typescript": "^4.6.4",
+    "version-bump-prompt": "^6.1.0"
+  }
+}
